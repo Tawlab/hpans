@@ -1,0 +1,110 @@
+html{
+    box-sizing: border-box;
+    height: 100%;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    
+    background: linear-gradient(150deg,#a70830,#d696a6,#eac4ce);
+    margin: 3% 3% 3% 3%;
+    font-family: 'Sriracha', cursive;
+    /* margin-top: 8%; */
+}
+/* @font-face {
+    font-family: Bualoi;
+    src: url(/font/MN\ Bualoi\ KhaiWan.otf);
+}
+@font-face {
+    font-family: ROCKEB;
+    src: url(/font/ROCKEB.TTF);
+} */
+
+.top #Fimg img{
+    width: 250px;
+    height: 200px;
+    /* margin: auto; */
+    margin-right:500px ;
+    box-shadow: 2px 2px 8px darkgray;
+}
+
+.top div {
+    /* font-family: Bualoi; */
+    font-family: 'Sriracha', cursive;
+    display: inline;
+    font-size: 50px;
+    text-shadow: 2px 2px 5px darkgray;
+    /* margin: auto; */
+    /* margin-left: 200px; */
+}
+
+.top  #Limg img{
+    width: 250px;
+    height: 200px;
+    position: absolute;
+    right: 3%;
+    box-shadow: 2px 2px 8px darkgray;
+    /* margin-left: 800px; */
+}
+
+.Center div1 {
+    /* font-family: Bualoi; */
+    font-family: 'Sriracha', cursive;
+    display: inline;
+    font-size: 50px;
+    text-shadow: 2px 2px 5px darkgray;
+    /* position: absolute; */
+    /* left: 3%; */
+}
+
+.Center img{
+    width: 250px;
+    height: 200px;
+    box-shadow: 2px 2px 8px darkgray;
+    
+    margin-left: 500px;
+}
+
+.Center div2{
+    /* font-family: Bualoi; */
+    display: inline;
+    position: absolute;
+    top: 45%;
+    right: 3%;
+    font-size: 50px;
+    text-shadow: 2px 2px 5px darkgray;
+    font-family: 'Sriracha', cursive;
+}
+
+.Bottom #Fimg img{
+    width: 200px;
+    height: 150px;  
+    /* margin: auto; */
+    margin-right:500px ;
+    box-shadow: 2px 2px 8px darkgray;
+}
+
+.Bottom div {
+    /* font-family: Bualoi; */
+    display: inline;
+    font-family: 'Sriracha', cursive;
+    font-size: 50px;
+    text-shadow: 2px 2px 5px darkgray;
+    
+}
+
+.Bottom #Limg img{
+    width : 200px;
+    height : 150px; 
+    position : absolute;
+    box-shadow: 2px 2px 8px darkgray;
+    right : 3%;
+
+}
