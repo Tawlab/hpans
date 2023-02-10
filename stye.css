@@ -1,0 +1,52 @@
+html{
+    box-sizing: border-box;
+    height: 100%;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    
+    background: linear-gradient(180deg,#fb6f92,#ffc2d1,#ffe5ec);
+    margin-top: 8%;
+    font-family: 'Sriracha', cursive;
+}
+/* @font-face {
+    font-family: ROCKEB;
+    src: url("https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap");
+} */
+
+
+.top #text{
+    font-size: 68px;
+    text-align: center;
+    /* font-family: ROCKEB; */
+    text-shadow: 2px 2px 5px gray;
+    margin-top: 2%;
+    margin-bottom: 25px;
+}
+
+.picture center img{
+    /* align-items: center; */
+    margin-top: 25px;
+    height: 250px;
+    border-radius: 50%;
+    border:dashed 2px black;
+    box-shadow: 2px 2px 2px 2px blanchedalmond;
+}
+
+.buttonLET #btn center button{
+    /* font-family: ROCKEB; */
+    font-family: 'Sriracha', cursive;
+    border-radius: 25%;
+    width: 100px;
+    height: 50px;
+    margin-top: 25px;
+    background: linear-gradient(320deg, #957DAD,#D291BC,#E0BBE4);
+}
