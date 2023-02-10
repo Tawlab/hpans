@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="script.js">
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
+
+    <title>Login</title>
+</head>
+<body>
+    <div class="back">
+        <button onclick="onclickBACK()">
+            
+            Back
+        </button>
+    </div>
+<div1>
+    <center>
+        <p>Who are You!</p>
+    </center>
+    
+</div1>
+
+    <div class="img"><center>
+        <img src="https://scontent.fbkk12-3.fna.fbcdn.net/v/t1.15752-9/329658192_1217657025506899_7864293738271252736_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeFTkRFF8RyLbzEGKJpwcnqIz1Su6JGNoZPPVK7okY2hk1V-NGlrSNa0xIch3uXZkNQRVXWBzFeXfLLuPQmjClhf&_nc_ohc=9ly97Nn8_ysAX_jevKJ&_nc_ht=scontent.fbkk12-3.fna&oh=03_AdQjxjfEdiECzPflSU3yTQQreAr1wvwP9xIbCsfgjsCC5g&oe=640CCCC6" alt="">
+    </center>
+    </div>
+
+<br>
+    <div class="login">
+
+        <div id="username">
+            <p>What's your name!</p>
+            <center><input type="text" name="" id="username" value="" ></center>
+        </div>
+
+            <br>
+
+        <div id="age">
+            <p>Birthday</p>
+            <center><input type="date" name="" id="age"></center>
+        </div>
+
+            <br>
+
+        <div id="ANS">
+            <p>Anniversary</p>
+            <center><input type="text" name="dateans" id="dateans" value=""></center>
+        </div>
+        
+        <br>
+
+    </div>
+
+    <div class="button">
+        <center>
+            <button onclick="ansTRUE()" id="submit">Submit</button>
+        </center>
+    </div>
+
+    
+    <script>
+        var mywindows1,mywindows2;
+        // var date = document.getElementById("dateans").value;
+        function ansTRUE(){
+            let date = document.getElementById("dateans").value;
+            // let name = document.getElementById("username").value;
+            if(date == "10012023"){
+                mywindows2=open("picture.html","_parent");
+            }
+            else{
+                alert("Anniversary failed");
+            }
+        }
+
+        function onclickBACK(){
+            mywindows1=open("index.html","_parent");
+        }
+        
+        
+
+    </script>
+
+</body>
+</html>

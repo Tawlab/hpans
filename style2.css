@@ -1,0 +1,131 @@
+html{
+    box-sizing: border-box;
+    height: 100%;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    
+    background: linear-gradient(360deg,#fb6f92,#ffc2d1,#ffe5ec);
+    font-family: 'Sriracha', cursive;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+    /* margin-top: 8%; */
+
+/* @font-face {
+    font-family: ROCKEB;
+    src: url(/font/ROCKEB.TTF);
+} */
+
+div1 center p{
+    /* margin-top: 8%; */
+    /* font-family: ROCKEB; */
+    font-size: 72px;
+    align-items: center;
+    text-shadow: 2px 2px 5px#9A9A9A;
+    border-bottom: 3px solid darkgrey;
+    margin-bottom: 5px;
+}
+
+.login #username p{
+    /* font-family: ROCKEB; */
+    text-align: center;
+    margin: 2px 2px 2px 2px;
+    text-shadow: 2px 2px 2px#9A9A9A;
+    
+}
+
+.login #username input {
+    width: 230px;
+    height: 25px;
+    align-items: center;
+    /* font-family: ROCKEB; */
+    text-align: center;
+    margin: 2px 2px 2px 2px;
+    background-color: transparent;
+    border: 2px dashed gray;
+    box-shadow: 2px 2px 2px 1.25px darkgray;
+}
+
+.login #age p{
+    /* font-family: ROCKEB; */
+    text-align: center;
+    margin: 2px 2px 2px 2px;
+    text-shadow: 2px 2px 2px#9A9A9A;
+
+}
+
+.login #age input {
+    font-family: 'Sriracha', cursive;
+    align-items: center;
+    /* font-family: ROCKEB; */
+    text-align: center;
+    margin: 2px 2px 2px 2px;
+    background-color: transparent;
+    border: 2px dashed gray;
+    box-shadow: 2px 2px 2px 1px darkgray;
+}
+
+.login #ANS p{
+    /* font-family: ROCKEB; */
+    text-align: center;
+    margin: 2px 2px 2px 2px;
+    text-shadow: 2px 2px 2px#9A9A9A;
+}
+
+.login #ANS input {
+    font-family: 'Sriracha', cursive;
+    align-items: center;
+    /* font-family: ROCKEB; */
+    text-align: center;
+    margin: 2px 2px 2px 2px;
+    background-color: transparent;
+    border: 2px dashed gray;
+    box-shadow: 2px 2px 2px 1px darkgray;
+}
+
+.button center button{
+    font-family: 'Sriracha', cursive;
+    /* font-family: ROCKEB; */
+    border-radius: 25%;
+    width: 100px;
+    height: 50px;
+    margin-top: 15px;
+    background: linear-gradient(320deg, #957DAD,#D291BC,#E0BBE4);
+    box-shadow: 2px 2px 2px 0.25px #ffc2d1;
+}
+
+.back button{
+    font-family: 'Sriracha', cursive;
+    display: block;
+    position:absolute;
+    overflow-y: auto;
+    width: 60px;
+    height: 40px;
+    background-color: #9A9A9A;
+    border-color: #8A8A8A8A;
+    border-radius: 25%;
+    box-shadow:2px 2px 5px whitesmoke;
+    /* font-family: ROCKEB; */
+    font-size: 15px;
+    text-shadow:2px 2px 2px white;
+    z-index: 2;
+    margin: 15px 20px 25px;
+}
+
+.img img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: dashed 2px darkgrey;
+    box-shadow: 2px 2px 2px 2px darkgray;
+    margin: 2px 2px 2px 2px;
+}
